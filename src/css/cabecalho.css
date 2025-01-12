@@ -1,0 +1,49 @@
+.logo .imagem {
+    width: 100px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo .titulo {
+    margin-left: 7px;
+    font-size: 17px;
+    transition: 0.3s ease-in-out;
+    font-weight: 800;
+}
+
+.logo .titulo:hover {
+    color: #57585b;
+}
+
+.cabecalho .menu {
+    display: flex;
+}
+
+.cabecalho .navegacao .menu .item {
+    margin: 10px;
+}
+
+.cabecalho .navegacao .menu .item a {
+    padding: 15px;
+    border-radius: 80%;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho .navegacao .menu .item a:hover {
+    background-color: #a1a3a7;
+    color: white;
+}
